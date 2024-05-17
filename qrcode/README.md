@@ -25,8 +25,8 @@ The challenge is to replicate a QR code leading to frontend mentor website. Only
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://bart254.github.io/Frontend_Mentor/)
+- Live Site URL: [](https://bart254.github.io/Frontend_Mentor/)
 
 ### Built with
 
