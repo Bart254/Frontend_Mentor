@@ -7,19 +7,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-The challenge is to replicate a QRcode using html/css only.
+The challenge is to replicate a QR code leading to frontend mentor website. Only html and css is used in this project, and, for being a simple one, responsive design is not included.
 
 ### Screenshot
 
@@ -30,23 +28,21 @@ The challenge is to replicate a QRcode using html/css only.
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- [Styled Components](https://styled-components.com/) - For styles
+- [Styled Components](https://styled-components.com/)
 
 
 ### What I learned
 
-The semantic of html page. I learnt how to use semantic tags: header, main, footer; where and when they are appropriate.
-When to use img element vs background-image
-Importing and using google fonts
-Using css flexbox and its properties.
-General css properties to include in the body: font-size, font-family, line-height
+- The semantic of html page. I learnt how to use semantic tags: header, main, footer; where and when they are appropriate.
+- When to use img element vs background-image
+- Importing and using google fonts
+- Using css flexbox and its properties.
+- General css properties to include in the body: font-size, font-family, line-height
 
 ```html
 <img src="images/image-qr-code.png" alt="QR code leading to Frontend Mentor">
@@ -61,22 +57,19 @@ General css properties to include in the body: font-size, font-family, line-heig
 
 ### Continued development
 
-I plan to continue learning semantic html for better representation of the DOM, enhanced accessibility and readability.
+- I plan to continue learning semantic html for better representation of the DOM, enhanced accessibility and readability.
 
-While learning css flexbox I came across grid representation. I would like to learn more on it since I'm aware it is the best alternative to some scenarios, especially, where nested flexboxes is encountered.
+- While learning css flexbox I came across grid representation. I would like to learn more on it since I'm aware it is the best alternative to some scenarios, especially, where nested flexboxes is encountered.
 
-Best practices in assigning values to css properties when building a responsive website is another goal in my repertoire. Also, when to use img tag and background image
+- Best practices in assigning values to css properties when building a responsive website is another goal in my repertoire. Also, when to use img tag and background image
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3schools](https://www.w3schools.com) - This helped me with quick references for styling properties. I'd recommend it for someone who needs a quick reminder of css properties and html tags. It provides comprehensive details without being verbose.
+- [MDN](https://www.developer.mozilla.org) - A much detailed reference for html, css and javascript. Helps when you want a deeper dive into styling and page structure. verbose but well-detailed.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Bart254](https://www.your-site.com)
+- Website - [Bart254](https://bart254.github.io/Frontend_Mentor/)
 - Frontend Mentor - [@Bart254](https://www.frontendmentor.io/profile/Bart254)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
