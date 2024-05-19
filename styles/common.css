@@ -1,0 +1,148 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --focus-outline: hsl(208, 100%, 50%);
+}
+
+@font-face {
+    font-family: Outright;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--eggshell);
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    max-width: 600px;
+    background-color: var(--white);
+    border-radius: 13px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header, main {
+    margin: 20px;
+}
+
+img, h1, p, h3, h2 {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+}
+
+h1, h2 {
+    font-weight: 400;
+    font-family: young-serif;
+}
+
+p, li, .attribution {
+    font-family: Outright;
+    font-size: 1rem;
+}
+
+.preparation-time {
+    width: 100%;
+    border-radius: 13px;
+    padding: 20px;
+    font-family: Outright;
+    font-size: 1rem;
+    background-color: var(--rose-white);
+}
+
+.preparation-time h3 {
+    color: var(--dark-raspberry);
+}
+
+li {
+    padding-left: 10px;
+    list-style-position: inside;
+    line-height: 2;
+}
+
+section {
+    margin: 18px 0;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.nutrition {
+    border-bottom: none;
+}
+
+h2, .nutritional-values {
+    color: var(--nutmeg);
+}
+
+.nutritional-values {
+    font-weight: 700;
+}
+
+ol li::marker {
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 8px;
+}
+
+.grid-item {
+    padding: 5px;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--wenge-brown);
+    text-decoration: underline;
+}
+a:focus {
+    outline: 2px solid var(--focus-outline);
+    outline-offset: 2px;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 60%;
+    }
+
+    .preparation-time {
+        padding: 35px;
+    }
+}
